@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <form action="divya.php" method="post" >
+
+    <center>
+    <h1>Registration Form</h1> </center>
+    <hr><br>
+    
+        <label for="username">Username:</label>
+        <input type="text" id="username" minlength="6" placeholder="Eg:Divya"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="divya@gmail.com"><br><br>
+
+        <label for="phone">Phone No:</label>
+        <input type="tel" id="phone"><br><br>
+
+        <label for="num">Number of project completed</label>
+        <input type="number" id="num" min="1" max="20"><br><br>
+
+        <label for="dob">DOB:</label>
+        <input type="date" id="dob"><br><br>
+
+<!-- gender -->
+        <label for="gender">Gender:</label>
+        <input type="radio" name="g">Male
+        <input type="radio" name="g">Female
+        <input type="radio" name="g">Other
+        <br><br>
+<!-- city -->
+        <label for="city">City:</label>
+        <select name="city" id="city">
+            <option value="dharmapuri">Dharmapuri</option>
+             <option value="salem">Salem</option>
+              <option value="erode">Erode</option>
+               <option value="madurai">Madurai</option>
+                <option value="chennai">Chennai</option>
+        </select><br><br>
+
+<!-- file -->
+    <label for="file">Upload File:</label>
+    <input type="file" id="file" accept="image/png,image/jpg"><br><br>
+
+ <!-- true -->
+        <label for="choose">Above Information of mine is true</label>
+        <input type="checkbox" id="choose"><br><br>
+<!-- feedback -->
+        <label for="feedback">Enter your Feedback:</label>
+        <textarea name="101" id="feedback" cols="10" rows="3"></textarea><br><br>
+<!-- submit -->
+        <br><input type="reset">
+        <input type="submit">
+    </form>
+ 
+</body>
+</html>
